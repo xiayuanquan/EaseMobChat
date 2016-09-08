@@ -1,0 +1,54 @@
+//
+//  EaseMobChat.pch
+//  EaseMobChat
+//
+//  Created by mac on 16/9/8.
+//  Copyright © 2016年 xiayuanquan. All rights reserved.
+//
+
+#ifndef EaseMobChat_pch
+#define EaseMobChat_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import "Easemob.h"
+#import "EaseUI.h"
+
+
+
+#import "UILabel+KJLabel.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIView+Extension.h"
+
+
+
+// 颜色RGB
+#define HMColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define HMColorRGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+// 随机色
+#define HMRandomColor HMColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+// 自定义Log
+#ifdef DEBUG
+#define KJLog(...) NSLog(__VA_ARGS__)
+#else
+#define KJLog(...)
+#endif
+
+
+//========================== 各种字体大小宏 ====================================//
+#define fontSize_09  [UIFont systemFontOfSize:9]
+#define fontSize_10  [UIFont systemFontOfSize:10]
+#define fontSize_11  [UIFont systemFontOfSize:11]
+#define fontSize_12  [UIFont systemFontOfSize:12]
+#define fontSize_13  [UIFont systemFontOfSize:13]
+#define fontSize_14  [UIFont systemFontOfSize:14]
+#define fontSize_15  [UIFont systemFontOfSize:15]
+#define fontSize_16  [UIFont systemFontOfSize:16]
+#define fontSize_17  [UIFont systemFontOfSize:17]
+#define fontSize_18  [UIFont systemFontOfSize:18]
+
+#endif /* EaseMobChat_pch */
