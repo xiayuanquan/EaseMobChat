@@ -12,5 +12,7 @@
   
 效果图：
   
+  ![image](https://github.com/xiayuanquan/EaseMobChat/blob/master/EaseMobChat/screenshots/chat1.png)
+  ![image](https://github.com/xiayuanquan/EaseMobChat/blob/master/EaseMobChat/screenshots/chat2.png)
   
        
