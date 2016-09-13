@@ -2,10 +2,8 @@
 环信集成
 --------
 
-提示：
+提示:
 -----
-
-###注意!!! 
   这个demo下载下来后编译时有一个错误，解决掉这个问题就可以正常使用了，解决看下面:
   
   ![image](https://github.com/xiayuanquan/EaseMobChat/blob/master/EaseMobChat/screenshots/lib.png)
