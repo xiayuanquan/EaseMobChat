@@ -12,11 +12,9 @@
   
   libEasemobClientSDK.a 文档路径：http://docs.easemob.com/start/300iosclientintegration/20iossdkimport
   
-  libEasemobClientSDK.a 下载路径如下：
+  libEasemobClientSDK.a 下载路径如下：通过 Cocoapods 下载地址
   
-  通过 Cocoapods 下载地址
-
-      不包含实时语音版本SDK（EaseMobClientSDKLite），引用时 #import <EaseMobSDK/EaseMob.h>
+      不包含实时语音版本SDK（EaseMobClientSDKLite），引用时 #import <EaseMobSDK/EaseMob.h>
   
       pod 'EaseMobSDK', :git => 'https://github.com/easemob/sdk-ios-cocoapods.git'
   
