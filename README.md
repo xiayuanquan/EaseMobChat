@@ -20,7 +20,12 @@ libEasemobClientSDK.a 下载路径如下：通过 Cocoapods 下载地址
     
     包含实时语音版本SDK（EaseMobClientSDK），引用时 #import <EaseMobSDKFull/EaseMob.h>
     
-    pod 'EaseMobSDKFull', :git => 'https://github.com/easemob/sdk-ios-cocoapods-integration.git'
+    pod 'EaseMobSDKFull', :git => 'https://github.com/easemob/sdk-ios-cocoapods-integration.git'    
+    
+   
+舞蹈服    
+
+     对方答复吗
   
 效果图：
 ------
